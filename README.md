@@ -1,230 +1,127 @@
-# 🧠 Blockchain Automated Compliance & Audit System (Python)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212750132-0c8c8c9f-5d47-4bb6-8a90-43f7bde8b4b8.gif" width="450" style="border-radius: 15px; box-shadow: 0px 10px 30px rgba(0,0,0,0.2);"/>
+  
+  <h1 align="center" style="border-bottom: none; margin-top: 20px; background: linear-gradient(90deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.5rem;">
+    🧠 Blockchain Automated Compliance & Audit System
+  </h1>
 
+  <p align="center" style="font-size: 1.2rem; color: #4b5563; max-width: 700px;">
+    <b>Secure • Transparent • Tamper-Proof Verification</b><br>
+    <i>An AI-driven hybrid-cloud platform for automated GRC auditing.</i>
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" />
+    <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />
+  </p>
+</div>
+
+<hr style="border: 0; height: 1px; background: linear-gradient(to right, transparent, #8b5cf6, transparent); margin: 40px 0;">
+
+<div style="background-color: #f8fafc; padding: 25px; border-radius: 15px; border-left: 5px solid #3b82f6; margin-bottom: 20px;">
+  <h2 style="color: #1e3a8a; margin-top: 0;">📌 Project Overview</h2>
+  <p style="line-height: 1.6; color: #334155;">
+    The <b>Blockchain Automated Compliance & Audit System</b> is a hybrid-cloud-ready platform designed to automate <b>Governance, Risk, and Compliance (GRC)</b>. By integrating AI for risk detection and Blockchain for immutability, the system eliminates the risks associated with manual logging and human error.
+  </p>
+</div>
+
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="50%" style="vertical-align: top; border: none; padding-right: 15px;">
+      <h3 style="color: #8b5cf6;">🎯 Objectives</h3>
+      <ul>
+        <li>Automate compliance validation</li>
+        <li>Eliminate manual audit dependency</li>
+        <li>Ensure tamper-proof audit logs</li>
+        <li>Detect risks & anomalies early</li>
+      </ul>
+    </td>
+    <td width="50%" style="vertical-align: top; border: none; padding-left: 15px;">
+      <h3 style="color: #3b82f6;">✨ Key Features</h3>
+      <ul>
+        <li>📜 Automated Rule Evaluation</li>
+        <li>⛓️ Immutable Blockchain Ledger</li>
+        <li>🔍 Real-time Compliance Dashboard</li>
+        <li>🤖 AI Anomaly Detection</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<h2 align="center" style="color: #1e40af; margin-top: 40px;">🏗️ System Architecture</h2>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212750132-0c8c8c9f-5d47-4bb6-8a90-43f7bde8b4b8.gif" width="420"/>
+  <code>Cloud Logs</code> ➔ <code>Collection Engine</code> ➔ <code>Rule Engine</code> ➔ <code>AI Risk Analyzer</code> ➔ <code>Blockchain Ledger</code> ➔ <code>React Dashboard</code>
 </p>
 
-<p align="center">
-  <b>AI & Blockchain-Based Compliance and Audit Automation</b><br>
-  Secure • Transparent • Tamper-Proof Verification
-</p>
+<h2 style="color: #1e40af; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;">📄 Application Ecosystem</h2>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+  <details>
+    <summary><b>1️⃣ Authentication & Dashboard</b></summary>
+    Role-based login (Admin/Auditor) via JWT and real-time compliance score visualizations.
+  </details>
+  <details>
+    <summary><b>2️⃣ Log Ingestion & Rules</b></summary>
+    Hybrid cloud log intake (AWS/Azure) and policy management interface.
+  </details>
+  <details>
+    <summary><b>3️⃣ Blockchain & Audit Results</b></summary>
+    Verification of Audit hashes and Block IDs with Pass/Fail violation details.
+  </details>
+  <details>
+    <summary><b>4️⃣ Alerts & Reports</b></summary>
+    AI-triggered risk alerts and downloadable PDF/CSV audit reports.
+  </details>
+</div>
 
----
+<h2 style="color: #1e40af; margin-top: 40px;">🛠️ Technology Stack</h2>
 
-## 📌 Project Overview
+| Layer | Technologies |
+| :--- | :--- |
+| **Backend** | Python, Flask/FastAPI, JWT, REST API |
+| **Frontend** | React.js, Chart.js, Tailwind CSS |
+| **Blockchain** | Ethereum (Solidity), Web3.py, Ganache |
+| **Storage** | PostgreSQL, MongoDB, IPFS |
+| **AI/ML** | Scikit-learn, Isolation Forest, Pandas |
 
-The **Blockchain Automated Compliance & Audit System** is a **hybrid-cloud-ready, AI-assisted platform** designed to **automate Governance, Risk, and Compliance (GRC) auditing** using **blockchain technology**.
+<h2 style="color: #1e40af; margin-top: 40px;">🚀 Proposed System Advantages</h2>
+<table width="100%">
+  <thead>
+    <tr style="background-color: #3b82f6; color: white;">
+      <th>Feature</th>
+      <th>Existing Solutions</th>
+      <th>Our System</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Real-time Audits</td>
+      <td align="center">❌</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>AI Risk Detection</td>
+      <td align="center">❌</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Blockchain Immutability</td>
+      <td align="center">⚠️ Partial</td>
+      <td align="center">✅ Full</td>
+    </tr>
+  </tbody>
+</table>
 
-The system eliminates manual audits by:
-- Automatically collecting audit logs
-- Validating compliance rules
-- Detecting risks using AI
-- Storing audit proofs on blockchain for immutability
+<h2 style="color: #1e40af; margin-top: 40px;">⚙️ Quick Setup</h2>
 
-This ensures **trust, transparency, and real-time compliance monitoring** across hybrid cloud environments.
-
----
-
-## 🎯 Objectives
-
-- Automate compliance validation
-- Eliminate manual audit dependency
-- Ensure tamper-proof audit logs
-- Detect risks and anomalies early
-- Support hybrid cloud infrastructures
-- Improve governance transparency
-
----
-
-## ✨ Key Features
-
-- 📜 Automated compliance rule evaluation  
-- ⛓️ Blockchain-based immutable audit trail  
-- 🔍 Real-time compliance status dashboard  
-- 🤖 AI-powered anomaly & risk detection  
-- 🔐 Cryptographic integrity verification  
-- 📊 Audit reports & compliance scoring  
-- 🧩 Modular, scalable system architecture  
-
----
-
-## 🏗️ System Architecture
-
-Cloud Logs (AWS / Azure / Private Cloud)
-↓
-Log Collection Engine
-↓
-Compliance Rule Engine
-↓
-AI Risk Analyzer
-↓
-Audit Result Generator
-↓
-Blockchain Audit Ledger
-↓
-React Dashboard UI
-
-
-
----
-
-## 📄 Application Pages
-
-### 1️⃣ Authentication Page
-- Role-based login (Admin / Auditor / Manager)
-- JWT-based authentication
-
-### 2️⃣ Dashboard Page
-- Compliance score
-- Risk level indicators
-- Audit summary charts
-
-### 3️⃣ Log Ingestion Page
-- Cloud audit log intake
-- Source identification (public/private cloud)
-
-### 4️⃣ Compliance Rules Page
-- View and manage compliance policies
-- Rule-based validation logic
-
-### 5️⃣ Audit Results Page
-- Pass / Fail status
-- Policy violation details
-- Timestamped audit records
-
-### 6️⃣ Blockchain Ledger Page
-- Audit hash
-- Block ID
-- Transaction proof
-
-### 7️⃣ Alerts & Notifications Page
-- Risk alerts
-- Compliance violation warnings
-
-### 8️⃣ Reports Page
-- Downloadable audit reports (PDF / CSV)
-
----
-
-## 🛠️ Technology Stack
-
-### 🐍 Backend
-- Python
-- Flask / FastAPI
-- REST APIs
-- JWT Authentication
-- Role-Based Access Control (RBAC)
-
-### ⚛️ Frontend
-- React.js
-- HTML5, CSS3
-- JavaScript (ES6)
-- Axios / Fetch API
-- Chart.js / Recharts
-
-### ⛓️ Blockchain
-- Ethereum (Private / Test Network)
-- Web3.py
-- Solidity Smart Contracts
-- Ganache (Local Blockchain)
-
-### 📦 Databases & Storage
-- PostgreSQL (Structured audit data)
-- MongoDB (Raw logs & events)
-- IPFS (Large audit reports)
-- Blockchain (Audit hashes)
-
-### 🤖 AI & Analytics
-- Scikit-learn
-- Isolation Forest
-- Rule-based + ML hybrid detection
-- Pandas & NumPy
-
-### 🔐 Security
-- SHA-256 hashing
-- AES encryption
-- Digital signatures
-- HTTPS / TLS
-
----
-
-## 🗂️ Data Storage Design
-
-### PostgreSQL
-
-### MongoDB
-
-### Blockchain
-
----
-
-## 📊 AI Risk Detection
-
-- Detects unusual access behavior
-- Identifies policy violations
-- Flags abnormal patterns such as:
-  - Unauthorized access
-  - Unusual login times
-  - Excessive failed attempts
-
----
-
-## 📚 Base Paper Analysis
-
-### 📄 Paper 1: Blockchain-Based Compliance Auditing
-- Uses blockchain for audit logs
-- ❌ No real-time monitoring
-- ❌ No AI-based analysis
-
-### 📄 Paper 2: Smart Contract Automation
-- Automates rule execution
-- ❌ High complexity
-- ❌ No hybrid cloud focus
-
-### 📄 Paper 3: Review of Blockchain Applications
-- Theoretical study
-- ❌ No implementation
-- ❌ No practical audit system
-
----
-
-## 🚀 Proposed System Advantages
-
-| Feature | Existing Papers | Proposed System |
-|------|----------------|----------------|
-| Real-time audits | ❌ | ✅ |
-| Hybrid cloud support | ❌ | ✅ |
-| AI risk detection | ❌ | ✅ |
-| Blockchain immutability | ✅ | ✅ |
-| Dashboard visualization | ❌ | ✅ |
-| IPFS report storage | ❌ | ✅ |
-
----
-
-## 💻 Software Requirements
-
-| Software | Version |
-|--------|--------|
-| Python | 3.8+ |
-| Node.js | 16+ |
-| React | Latest |
-| Flask / FastAPI | Latest |
-| Web3.py | Latest |
-| MongoDB | Latest |
-| PostgreSQL | Latest |
-| Ganache | Latest |
-| VS Code / PyCharm | Any |
-
----
-
-## ⚙️ Installation & Setup
-
-### 🔹 Clone Repository
 ```bash
-git clone https://github.com/VIMAL-2101/Blockchain-Automated-Compliance-and-Audit-System.git
-cd Blockchain-Automated-Compliance-and-Audit-System
+# Clone the repository
+git clone [https://github.com/VIMAL-2101/Blockchain-Automated-Compliance-and-Audit-System.git](https://github.com/VIMAL-2101/Blockchain-Automated-Compliance-and-Audit-System.git)
+
+# Backend Setup
 pip install -r requirements.txt
 python app.py
-cd frontend
-npm install
-npm start
+
+# Frontend Setup
+cd frontend && npm install && npm start
