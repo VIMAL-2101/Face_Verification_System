@@ -11,99 +11,220 @@
 
 ---
 
-## 📌 Project Description
+## 📌 Project Overview
 
-The **Blockchain Automated Compliance and Audit System** is a Python-based intelligent platform that automates **regulatory compliance validation and audit logging** using **blockchain technology**.
+The **Blockchain Automated Compliance & Audit System** is a **hybrid-cloud-ready, AI-assisted platform** designed to **automate Governance, Risk, and Compliance (GRC) auditing** using **blockchain technology**.
 
-Unlike traditional centralized audit systems, this solution ensures **data integrity, immutability, and transparency** by storing compliance results and audit records on a **blockchain ledger**, making them tamper-proof and verifiable.
+The system eliminates manual audits by:
+- Automatically collecting audit logs
+- Validating compliance rules
+- Detecting risks using AI
+- Storing audit proofs on blockchain for immutability
 
----
-
-## ✨ Features
-
-- 📜 Automated compliance rule validation  
-- ⛓️ Blockchain-based immutable audit records  
-- 🔍 Real-time compliance status tracking  
-- 🤖 AI-assisted anomaly and risk detection  
-- ⚡ Transparent and reliable audit process  
-- 🔐 Tamper-proof data storage  
-- 🧩 Modular & scalable Python architecture  
+This ensures **trust, transparency, and real-time compliance monitoring** across hybrid cloud environments.
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Objectives
 
-### 🐍 Programming Language
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python" />
-</p>
-
-- **Python** – Core backend & automation logic  
+- Automate compliance validation
+- Eliminate manual audit dependency
+- Ensure tamper-proof audit logs
+- Detect risks and anomalies early
+- Support hybrid cloud infrastructures
+- Improve governance transparency
 
 ---
+
+## ✨ Key Features
+
+- 📜 Automated compliance rule evaluation  
+- ⛓️ Blockchain-based immutable audit trail  
+- 🔍 Real-time compliance status dashboard  
+- 🤖 AI-powered anomaly & risk detection  
+- 🔐 Cryptographic integrity verification  
+- 📊 Audit reports & compliance scoring  
+- 🧩 Modular, scalable system architecture  
+
+---
+
+## 🏗️ System Architecture
+
+Cloud Logs (AWS / Azure / Private Cloud)
+↓
+Log Collection Engine
+↓
+Compliance Rule Engine
+↓
+AI Risk Analyzer
+↓
+Audit Result Generator
+↓
+Blockchain Audit Ledger
+↓
+React Dashboard UI
+
+
+
+---
+
+## 📄 Application Pages
+
+### 1️⃣ Authentication Page
+- Role-based login (Admin / Auditor / Manager)
+- JWT-based authentication
+
+### 2️⃣ Dashboard Page
+- Compliance score
+- Risk level indicators
+- Audit summary charts
+
+### 3️⃣ Log Ingestion Page
+- Cloud audit log intake
+- Source identification (public/private cloud)
+
+### 4️⃣ Compliance Rules Page
+- View and manage compliance policies
+- Rule-based validation logic
+
+### 5️⃣ Audit Results Page
+- Pass / Fail status
+- Policy violation details
+- Timestamped audit records
+
+### 6️⃣ Blockchain Ledger Page
+- Audit hash
+- Block ID
+- Transaction proof
+
+### 7️⃣ Alerts & Notifications Page
+- Risk alerts
+- Compliance violation warnings
+
+### 8️⃣ Reports Page
+- Downloadable audit reports (PDF / CSV)
+
+---
+
+## 🛠️ Technology Stack
+
+### 🐍 Backend
+- Python
+- Flask / FastAPI
+- REST APIs
+- JWT Authentication
+- Role-Based Access Control (RBAC)
 
 ### ⚛️ Frontend
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react" />
-</p>
+- React.js
+- HTML5, CSS3
+- JavaScript (ES6)
+- Axios / Fetch API
+- Chart.js / Recharts
 
-- **React.js** – User interface for compliance input and audit results  
-- **HTML5 & CSS3** – UI structure and styling  
-- **JavaScript (ES6)** – Frontend logic and API communication  
-- **Axios / Fetch API** – Connects React frontend with backend APIs  
+### ⛓️ Blockchain
+- Ethereum (Private / Test Network)
+- Web3.py
+- Solidity Smart Contracts
+- Ganache (Local Blockchain)
+
+### 📦 Databases & Storage
+- PostgreSQL (Structured audit data)
+- MongoDB (Raw logs & events)
+- IPFS (Large audit reports)
+- Blockchain (Audit hashes)
+
+### 🤖 AI & Analytics
+- Scikit-learn
+- Isolation Forest
+- Rule-based + ML hybrid detection
+- Pandas & NumPy
+
+### 🔐 Security
+- SHA-256 hashing
+- AES encryption
+- Digital signatures
+- HTTPS / TLS
 
 ---
 
-### ⛓️ Blockchain & Backend Tools
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python" />
-</p>
+## 🗂️ Data Storage Design
 
-- **Blockchain (Ethereum / Private Chain)** – Secure audit ledger  
-- **Web3.py** – Blockchain interaction  
-- **Smart Contracts (Optional)** – Compliance rule enforcement  
+### PostgreSQL
+
+### MongoDB
+
+### Blockchain
 
 ---
 
-### 📚 Libraries & Frameworks
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=tensorflow" />
-</p>
+## 📊 AI Risk Detection
 
-- **Flask / FastAPI** – Backend API services  
-- **TensorFlow / Scikit-learn** – AI-based anomaly detection  
-- **NumPy** – Data processing  
-- **Hashlib** – Cryptographic hashing  
+- Detects unusual access behavior
+- Identifies policy violations
+- Flags abnormal patterns such as:
+  - Unauthorized access
+  - Unusual login times
+  - Excessive failed attempts
+
+---
+
+## 📚 Base Paper Analysis
+
+### 📄 Paper 1: Blockchain-Based Compliance Auditing
+- Uses blockchain for audit logs
+- ❌ No real-time monitoring
+- ❌ No AI-based analysis
+
+### 📄 Paper 2: Smart Contract Automation
+- Automates rule execution
+- ❌ High complexity
+- ❌ No hybrid cloud focus
+
+### 📄 Paper 3: Review of Blockchain Applications
+- Theoretical study
+- ❌ No implementation
+- ❌ No practical audit system
+
+---
+
+## 🚀 Proposed System Advantages
+
+| Feature | Existing Papers | Proposed System |
+|------|----------------|----------------|
+| Real-time audits | ❌ | ✅ |
+| Hybrid cloud support | ❌ | ✅ |
+| AI risk detection | ❌ | ✅ |
+| Blockchain immutability | ✅ | ✅ |
+| Dashboard visualization | ❌ | ✅ |
+| IPFS report storage | ❌ | ✅ |
 
 ---
 
 ## 💻 Software Requirements
 
 | Software | Version |
-|--------|---------|
+|--------|--------|
 | Python | 3.8+ |
 | Node.js | 16+ |
 | React | Latest |
 | Flask / FastAPI | Latest |
 | Web3.py | Latest |
-| TensorFlow | 2.x |
+| MongoDB | Latest |
+| PostgreSQL | Latest |
+| Ganache | Latest |
 | VS Code / PyCharm | Any |
-| Blockchain Node | Local / Testnet |
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
+### 🔹 Clone Repository
 ```bash
 git clone https://github.com/VIMAL-2101/Blockchain-Automated-Compliance-and-Audit-System.git
-```
-
-```## 💻Frontend Setup (React)
-
+cd Blockchain-Automated-Compliance-and-Audit-System
+pip install -r requirements.txt
+python app.py
 cd frontend
 npm install
 npm start
-
-cd Blockchain-Automated-Compliance-and-Audit-System
-pip install -r requirements.txt
-  
